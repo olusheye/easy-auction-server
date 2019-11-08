@@ -16,7 +16,7 @@ mongoose.Promise = bluebird;
 mongoose.connect(config.mongo.url, { useNewUrlParser: true });
 app.use(
   cors({
-    origin: "http://localhost:4200",
+    origin: "https://easy-auction-client.herokuapp.com",
   })
 );
 // var storage = multer.diskStorage({

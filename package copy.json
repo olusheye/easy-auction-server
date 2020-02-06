@@ -1,0 +1,30 @@
+{
+  "name": "entrance-backend",
+  "version": "1.0.0",
+  "description": "Entrance Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshheye/entrance_back_end.git"
+  },
+  "keywords": [
+    "entrance-backend",
+    "entrance"
+  ],
+  "author": "Omoleye Oluseye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshheye/entrance_back_end/issues"
+  },
+  "homepage": "https://github.com/sshheye/entrance_back_end#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
